@@ -49,6 +49,23 @@ curl --location --request GET 'https://klaar-test-anurag.herokuapp.com/api/branc
 
 **Sample Response:**
 ```
+curl --location --request GET 'https://klaar-test-anurag.herokuapp.com/api/branches?query=Banglore&limit=1&offset=0' \
+
+Response:
+
+{
+    "branches": [{
+        "ifsc": "HDFC0000549",
+        "bank_id": "5",
+        "branch": "BANGLORE-ELECTRONIC CITY-KARNATAKA",
+        "address": "FLAT NO.A112,GROUND FLOOR, 3RD BLOCK, KSSIDC COMPLEX, ELECTRONIC CITY, BANGALORE, KARNATAKA - 561229",
+        "city": "BANGALORE",
+        "district": "BANGALORE URBAN",
+        "state": "KARNATAKA",
+        "bank_name": "HDFC BANK"
+    }]
+}
+
 ```
 
-
+You can also run the APIs in the postman by clicking on "Run in Postman" button at the top.
