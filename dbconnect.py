@@ -1,9 +1,9 @@
 import psycopg2.extras
 
-DB_HOST = "bhsdpw52pes2u2sy2hux-postgresql.services.clever-cloud.com"
-DB_NAME = "bhsdpw52pes2u2sy2hux"
-DB_USER = "uc8x7tllsxksk3pr1boh"
-DB_PASS = "X4P22FBJZgUCs9J0ELuS"
+DB_HOST = ""
+DB_NAME = ""
+DB_USER = ""
+DB_PASS = ""
 
 
 def getAllRowsWithMachingBranches(query, limit, offset=0):
